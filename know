@@ -1,0 +1,6 @@
+#!/bin/bash
+echo ¨hello wold¨ > love 
+git add .
+git commit -m 'goodbye'
+git push
+
