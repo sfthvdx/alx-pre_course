@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "input file name"
+read name
+
+echo "#!/bin/bash" > ${name}
+
+vi ${name}
+
+echo "input commit message"
+read var
+
+git add .
+git commit -m "${var}"
+git push
